@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Innovation Match</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+       .banner {
+            background: url('https://source.unsplash.com/random') no-repeat center center/cover;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            padding: 0 2rem;
+        }
+
+       .banner h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+        }
+
+       .banner p {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+       .carousel {
+            display: flex;
+            overflow-x: auto;
+            padding: 2rem;
+        }
+
+       .carousel.card {
+            min-width: 300px;
+            height: 200px;
+            background: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            margin-right: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+            padding: 1rem;
+        }
+
+       .carousel.card h3 {
+            margin-bottom: 1rem;
+        }
+
+       .recommended {
+            background: #fff;
+            padding: 2rem;
+            text-align: center;
+        }
+
+       .recommended h2 {
+            margin-bottom: 2rem;
+        }
+
+       .recommended.card {
+            background: #f9f9f9;
+            border-radius: 5px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 2rem;
+            text-align: left;
+            margin-bottom: 2rem;
+        }
+
+       .recommended.card h3 {
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header class="banner">
+        <div>
+            <h1>Welcome to Innovation Match</h1>
+            <p>Connecting Innovators and Businesses</p>
+        </div>
+    </header>
+    <section class="carousel">
+        <div class="card">
+            <h3>Idea 1</h3>
+            <p>Summary of idea 1</p>
+        </div>
+        <div class="card">
+            <h3>Idea 2</h3>
+            <p>Summary of idea 2</p>
+        </div>
+        <div class="card">
+            <h3>Idea 3</h3>
+            <p>Summary of idea 3</p>
+        </div>
+        <div class="card">
+            <h3>Idea 4</h3>
+            <p>Summary of idea 4</p>
+        </div>
+    </section>
+    <section class="recommended">
+        <h2>Highly Recommended Idea</h2>
+        <div class="card">
+            <h3>Idea 5</h3>
+            <p>Summary of idea 5</p>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2023 Innovation Match. All rights reserved.</p>
+        <div>
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
